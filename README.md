@@ -24,7 +24,7 @@
 - VIPER и TDD
  
 **Прочее:**
-- Подборка сторонних материалов по VIPER
+- [Подборка сторонних материалов по VIPER](https://github.com/rambler-ios/The-Book-of-VIPER/wiki/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-%D1%81%D1%81%D1%8B%D0%BB%D0%BE%D0%BA)
 
 ### Авторы
 
