@@ -4,6 +4,8 @@
 
 Все вопросы и пожелания принимаются в [Issues](https://github.com/rambler-ios/The-Book-of-VIPER/issues).
 
+![VIPER](http://i.imgur.com/z0BTfgi.png)
+
 ### Содержание
 
 **Основы:**
