@@ -15,7 +15,8 @@
 - VIPER и Swift
 
 **Практика:**
-- Связь модулей: переходы и сложные экраны
+- [Составные VIPER модули](https://github.com/rambler-ios/The-Book-of-VIPER/wiki/Составные-VIPER-модули)
+- [Переходы между модулями](https://github.com/rambler-ios/The-Book-of-VIPER/wiki/Переходы-между-модулями)
 - Реюзабельные модули для стандартных компонентов
 - Путь от Massive ViewController до VIPER
  
