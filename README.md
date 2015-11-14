@@ -20,6 +20,8 @@
 - [Переходы между модулями](https://github.com/rambler-ios/The-Book-of-VIPER/wiki/Переходы-между-модулями)
 - Реюзабельные модули для стандартных компонентов
 - Путь от Massive ViewController до VIPER
+- Обработка ошибок
+- VIPER и CoreData
  
 **Тестирование:**
 - Аспекты тестирования VIPER модулей
