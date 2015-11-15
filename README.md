@@ -9,10 +9,10 @@
 ### Содержание
 
 **Основы:**
-- [Введение в VIPER](https://github.com/rambler-ios/The-Book-of-VIPER/wiki/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B2-VIPER)
+- [Введение в VIPER](IntroductionToVIPER.md)
 - Структура VIPER-модуля
 - Вопросы нейминга
-- [Вопросы кодогенерации и автоматизации создания модулей](https://github.com/rambler-ios/The-Book-of-VIPER/wiki/%D0%9A%D0%BE%D0%B4%D0%BE%D0%B3%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F)
+- [Вопросы кодогенерации и автоматизации создания модулей](GenerationOfCode.md)
 - VIPER и Swift
 
 **Практика:**
@@ -22,11 +22,11 @@
 - Путь от Massive ViewController до VIPER
 - Обработка ошибок
 - VIPER и CoreData
- 
+
 **Тестирование:**
 - Аспекты тестирования VIPER модулей
 - VIPER и TDD
- 
+
 **Прочее:**
 - [Подборка сторонних материалов по VIPER](https://github.com/rambler-ios/The-Book-of-VIPER/wiki/%D0%9F%D0%BE%D0%B4%D0%B1%D0%BE%D1%80%D0%BA%D0%B0-%D1%81%D1%81%D1%8B%D0%BB%D0%BE%D0%BA)
 
