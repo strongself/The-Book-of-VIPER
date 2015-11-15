@@ -1,37 +1,37 @@
-**VIPER** - это подход к архитектуре мобильных приложений (в частности - iOS), основанный на идеях [Роберта Мартина](http://blog.cleancoder.com/), изложенных им в статье [The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html).
+**VIPER** - Architecture approach for application development(particularly iOS), based on ideas of [Robert Martin](http://blog.cleancoder.com/), for his article [The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
 ![Clean Architecture](http://i.imgur.com/rt9bUjo.png)
 
-**Основные задачи, которые помогает решить VIPER**:
+**Main goals of VIPER**:
 
-- Обеспечение более полного покрытия тестами слоя Presentation, обычно включающего в себя *Massive View Controllers*.
-- Разбитие самых крупных классов наших приложений на набор элементов с более-менее четко определенными границами ответственности.
+- Increase of test coverage for Presentation level, usually built from *Massive View Controllers*.
+- Partition of most heavy application classes into smaller parts with distinct responsibility.
 
-Важно сразу же отметить, что VIPER - это ни в коем случае не набор строгих шаблонов и правил. Скорее это перечень рекомендаций, следуя которым можно построить гибкую и переиспользуемую архитектуру мобильного приложения. Мы, iOS команда **Rambler&Co**, адаптировали некоторые из каноничных принципов и сформировали определенный набор Best Practices для разработки тех или иных юзкейсов.
+it is important to note that VIPER is not list of rules and templates. It's list of recomendations how to build flexible, testable and reusable architecture. We, the iOS Team of **Rambler&Co**, have adopted some canonical principles and formed our best practices for some cases.
 
-Первоначально VIPER может ломать сознание, особенно разработчикам без опыта командной работы над крупными проектами - отсутствует понимание необходимости независимости модулей приложения друг от друга и максимально возможного покрытия их тестами. Тем не менее, весь набор решений оправдывает себя даже для небольших приложений.
+Firstly VIPER cat break the mind, especially for developers without team work experience. It's because lack of understanding that application parts should be independent and have maximal test coverage. But VIPER is helpful even for small applications.
 
-**Основные достоинства и недостатки VIPER:**
+**Pros and cons of VIPER:**
 
-Плюсы:
+Pros:
 
-- **Повышение тестируемости** Presentation-слоя приложений.
-- **Полная независимость модулей** друг от друга - это позволяет независимо их разрабатывать и переиспользовать как в одном приложении, так и в нескольких.
-- Передача проекта другим разработчикам, либо внедрение нового, дается намного проще, так как **общие подходы к архитектуре заренее определены**.
+- **Increase of testablity** for application presentation layer.
+- **Modules are independent** form each other. It allows separate development of modules and reuse.
+- **Main architecture approaches are defined**. So it's much easier to add new developer into team or move project to another team.
 
-Минусы:
+Cons:
 
-- Резкое **увеличение количества классов** в проекте, сложности при создании нового модуля.
-- Некоторые из принципов **не ложатся напрямую на UIKit** и подходы Apple.
-- **Отсутствие в открытом доступе набора конкретных рекомендаций**, best practices и примеров сложных приложений.
+- Highly **increases class count** in the project, as well as complexity of new module creation.
+- Some principles **doesn't work with UIKit** out of the box.
+- **Lack of recommendations**, best practices and complex application examples.
 
-Остальные части нашего руководства в подробностях раскроют каждый из этих пунктов, в том числе расскажут о том, как избавиться от перечисленных недостатков.
+Other part of our manual tells more about each of this points. Especially it will be told how to beat those cons.
 
-**Небольшой ликбез по истории вопроса:**
+**VIPER history timeline:**
 
-- **08.2012** - Статья [The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) от Роберта Мартина
-- **12.2013** - Статья [Introduction to VIPER](http://mutualmobile.github.io/blog/2013/12/04/viper-introduction/) от компании [MutualMobile](http://mutualmobile.github.io/)
-- **06.2014** - Выпуск objc.io #13 со статьей [Architecting iOS Apps with VIPER](https://www.objc.io/issues/13-architecture/viper/) от тех же MutualMobile
-- **07.2014** - [Выпуск подкаста iPhreaks Show](https://itunes.apple.com/ru/podcast/the-iphreaks-show/id634022060?mt=2&i=316803444), в котором MutualMobile рассказывают о том, как появился VIPER, какие вопросы он решает, и как используется в их приложениях.
-- **04.2015** - В рамках локального хакатона в Rambler&Co пишется первое приложение с использованием подходов VIPER.
-- **12.2015** - У Rambler&Co больше десяти приложений на VIPER, как разрабатываемых в данный момент, так и [выпущенных в AppStore](https://itunes.apple.com/ru/developer/rambler-internet-holdings/id395455934).
+- **08.2012** - Article [The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) by Robert Martin
+- **12.2013** - Article [Introduction to VIPER](http://mutualmobile.github.io/blog/2013/12/04/viper-introduction/) by [MutualMobile](http://mutualmobile.github.io/)
+- **06.2014** - Issue #13. objc.io [Architecting iOS Apps with VIPER](https://www.objc.io/issues/13-architecture/viper/) by MutualMobile
+- **07.2014** - [iPhreaks Show podcast](https://itunes.apple.com/ru/podcast/the-iphreaks-show/id634022060?mt=2&i=316803444) by MutualMobile. History of VIPER, goals and usage.
+- **04.2015** - Rambler&Co VIPER hackatone leads to first application.
+- **12.2015** - Rambler&Co has dozen of VIPER application in development and [released in AppStore](https://itunes.apple.com/ru/developer/rambler-internet-holdings/id395455934).

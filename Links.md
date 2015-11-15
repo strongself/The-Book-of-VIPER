@@ -1,59 +1,60 @@
-### Предисловие
-На просторах сети можно найти достаточно много различных статей, презентаций и видео, так или иначе связанных с VIPER. Не все из них одинаково полезны, некоторые даже вредны - но со многими ознакомиться не только можно, но и нужно.
+### Foreword
 
-**Важно:** Наличие материала в этом списке не означает нашего молчаливого согласия со всеми изложенными в нем идеями. Возможно, нам просто понравились шуточки или шрифты.
+There are lots of articles, presentations and videos related to VIPER in the Internet. Some of them are good and helpful, some are harmful. But it's better to study most of them.
 
-### Статьи
+**Important notice:** Materials in this list doesn't mean that we agree with authors and endorse it's ideas. It's possible that we just like fonts and found some jokes funny.
+
+### Articles
 - [objc.io #13 - Architecting iOS Apps with VIPER](http://www.objc.io/issues/13-architecture/viper/)
 
-  **Авторы:** Jeff Gilbert, Conrad Stoll.
+  **Authors:** Jeff Gilbert, Conrad Stoll.
 
-  **Рецензия:** *Неувядающая классика, которую вы уже должны были прочесть. Знаменательна благодаря двум фактам: во-первых, это статья времен еще годного objc.io, во-вторых - авторство принадлежит автору идеи VIPER Jeff Gilbert.*
+  **Review:** *Unfading classics you should already read. Two things makes it famous: Firstly it was written it times of true objc.io, secondly it was written by the author of VIPER Jeff Gilbert.*
 
-  *Как и любой из прочих материалов, не стоит принимать слишком всерьез - предлагаемая реализация в целом неоптимальна, а во многом и вообще ошибочна. Но зато есть тестовые проекты на ObjC и Swift :)*
+  *VIPER realization in this article should not be taken seriously. It's not optimal and buggy in some cases. But it has example projects on ObjC and SWIFT :)*
 
 - [Introduction to VIPER](http://mutualmobile.github.io/blog/2013/12/04/viper-introduction/)
 
-  **Авторы:** Jeff Gilbert.
+  **Author:** Jeff Gilbert.
 
-  **Рецензия:**   *Еще один must-read, MutualMobile рассказывают о том, как они докатились до VIPER. Особенное внимание стоит обратить на первые абзацы, где Jeff говорит о том, что к необходимости использования такой архитектуры их подвела потребность в покрытии UI тестами. Неплохой вброс и про историю появления названия - про первоначальные буквы VIP и додумывание E и R.*
+  **Review:**   *Another must-read article, MutualMobile tells about their way to VIPER. You should pay attention to first paragraphs. There Jeff tells that use of such architecture was forced by need of UI tests. Also there's nice point about naming - first VIP letters and think out of E and R.*
 
-  *Тем не менее, с некоторыми позициями мы не согласны - в том числе с концепцией Wireframe, тотальным запретом на передачу ManagedObject'ов выше интерактора и прямым использованием DataStore.*
+  *But we're not agree with some points. Especially with Wireframe concepts, total prohibition of ManagedObject use out of Interactor and direct use of DataStore.*
 
 - [Brigade’s Experience Using an MVC Alternative](https://medium.com/brigade-engineering/brigades-experience-using-an-mvc-alternative-36ef1601a41f)
 
-  **Авторы:** Ryan Quan.
+  **Author:** Ryan Quan.
 
-  **Рецензия:** *На наш взгляд, это главный претендент на роль лучшего вступления в VIPER. Хороший язык, простые схемы, четкое объяснение основных идей и принципов. Единственные (из популярных туториалов) рекомендуют выносить бизнес-логику в сервисный слой. Рекомендуется использование в качестве мотивационного материала для своей команды, семьи и друзей.*
+  **Review:** *On our opinion it's highest bidder to role of "The best introduction to VIPER". Good test, simple schemes, clear description of main ideas and principles. The one from popular tutorials, that advises to move business logic into service layer. This article is recomended at motivation material for your team, family and friends.*
 
-  *Конечно, здесь нас снова ожидает наш старый знакомый - Wireframe. Кроме того, выделение DataManager'а (а мы его называем ServiceFacade) из интерактора - это достаточно редкий кейс, чтобы рекомендовать его для использования на постоянной основе во всех модулях.*
+  *Of course, here we have Wireframe. Moreover, move of DataManager(we call it ServiceFacade) from Interactor is so rare case, to advice it usage in most modules.*
 
 - [The Clean Architecture](http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
-  **Авторы:** Robert Martin.
+  **Authors:** Robert Martin.
 
-  **Рецензия:** *Хоть и не напрямую относится к VIPER, но однозначно достойно прочтения. Дядюшка Боб раскрывает всем глаза на то, что такое чистая архитектура, рисует кружочки, говорит про DI и делает кучу других интересных вещей.*
+  **Review:** *It's not about VIPER itself, but definitely must read. Uncle Bob talks about clean arcitecture and DI, draws circles and do lots of interesting things.*
 
-  *Переложить архитектуру в чистом виде на нашу суровую реальность вряд ли получится - но именно идеи из этой статьи послужили для MutualMobile толчком к VIPER.*
+  *It's hardly to use such architecture in our harsh reality, but it was exactly the thing that lead MutualMobile to create VIPER.*
 
-### Подкасты
+### Podcasts
 - [iPhreaks Show - VIPER](https://itunes.apple.com/ru/podcast/the-iphreaks-show/id634022060?mt=2&i=316803444)
 
-  **Участники:** Conrad Stoll, Jeff Gilbert.
+  **Participants:** Conrad Stoll, Jeff Gilbert.
 
-  **Рецензия:** *Если бы все то, о чем говорится в этом подкасте, было упомянуто в `той самой` статье на objc.io - многое могло пойти по-другому. Создатели VIPER подробно рассказывают о своей мотивации, подходах к рефакторингу, реализации сложных композитных экранов, тестировании, и многом другом. Незаслуженно пропущенный широким кругом iOS-разработчиков, этот подкаст - чуть ли не лучшее из того, что можно прочитать/увидеть/услышать относительно VIPER.*
+  **Review:** *Many things could be different if ideas from this podcast were told in the Objc.io article. Authors of VIPER tells about their motivation, refactoring approaches, creation of composite screens, testing and many other things. This podcast is one of the best things you can find about VIPER.*
 
-### Видео
+### Videos
 - [250 Days Shipping With Swift and VIPER](https://realm.io/news/altconf-brice-pollock-250-days-shipping-with-swift-and-viper/)
 
-  **Докладчик:** Brice Pollock.
+  **Speaker:** Brice Pollock.
 
-  **Рецензия:** *Бодро, весело, про свифт. Разработчик из Coursera рассказывает об их опыте работы с VIPER. Как и нас, ребят не удовлетворила каноничная модель, и они своими силами расширили ее, включив туда ViewModel, EventHandler, FlowController. Выглядит интересно, но схема обмена данными в рамках одного модуля на 12 минуте вызывает благоговейный ужас.*
+  **Review:** *Сheerfully, Funny, SWIFTy. Coursera developer tells about VIPER experience. The team was not satisfied with canonical model and appended ViewModel, EventHandler and FlowController to it. Looks interesting, but data flow inside module looks frighteningly.*
 
 - [Clean Architecture - VIPER](https://www.youtube.com/watch?v=OX4rLAJC7lw)
 
-  **Докладчик:** Sergi Gracia.
+  **Speaker:** Sergi Gracia.
 
-  **Рецензия:** *Немного про ответственности элементов, немного про тестирование, немного про SOLID, много про офис и команду Redbooth - даже с элементами воркшопа. А шрифты в презентации - просто огонь. Ничего необычного - просто еще одно введение в концепцию VIPER.*
+  **Review:** *Some information about elements responsibility, little more about testing, few words about SOLID and lots about Redbooth office and team. And great fonts in the keynote. Nothing special, just another one introduction into VIPER concept.*
 
-  *А главная претензия - очень плохое качество видео, поэтому однозначно параллельно стоит посмотреть [сопутствующие слайды](https://speakerdeck.com/sergigracia/clean-architecture-viper).*
+  *The main claim is quality of the Video. It definitely should be seen with [slides in parallel](https://speakerdeck.com/sergigracia/clean-architecture-viper).*

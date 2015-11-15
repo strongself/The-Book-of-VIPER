@@ -1,39 +1,44 @@
-### Предисловие
+### Foreword
 
-В этом репозитории мы постепенно собираем все наши инструкции, how-to, статьи и best practices, связанные с использованием **VIPER**.
+This repository is a digest of our how-tos, articles, instructions and best practices related to use of the **VIPER** architecture for iOS application.
 
-Все вопросы и пожелания принимаются в [Issues](https://github.com/rambler-ios/The-Book-of-VIPER/issues).
+You can post your questions, advises and wishes to [Issues](https://github.com/rambler-ios/The-Book-of-VIPER/issues).
+
+**To native Speakers:**
+
+We're Russian team and English is not native for us. If you notice any misspelling, grammar issues or wrong punctuation, please let us know in [Issue #5](https://github.com/rambler-ios/The-Book-of-VIPER/issues/5).
+Pull requests are welcome.
 
 ![VIPER](http://i.imgur.com/z0BTfgi.png)
 
-### Содержание
+### Contents
 
-**Основы:**
-- [Введение в VIPER](IntroductionToVIPER.md)
-- Структура VIPER-модуля
-- Вопросы нейминга
-- [Вопросы кодогенерации и автоматизации создания модулей](CodeGeneration.md)
-- VIPER и Swift
+**Basics:**
+- [Introduction to VIPER](IntroductionToVIPER.md)
+- Structure of the VIPER-module
+- Naming questions
+- [Code generation and module creation automation](CodeGeneration.md)
+- VIPER & Swift
 
-**Практика:**
-- [Составные VIPER модули](CompoundModules.md)
-- [Переходы между модулями](ModuleTransitions.md)
-- Реюзабельные модули для стандартных компонентов
-- Путь от Massive ViewController до VIPER
-- Обработка ошибок
-- VIPER и CoreData
+**Practice:**
+- [Compound VIPER modules](CompoundModules.md)
+- [Transitions between modules](ModuleTransitions.md)
+- Reusable modules for standard components
+- Way from Massive View Controller to VIPER module
+- Error handling
+- VIPER & CoreData
 
-**Тестирование:**
-- Аспекты тестирования VIPER модулей
-- VIPER и TDD
+**Testing:**
+- Testing with VIPER modules
+- VIPER & TDD
 
-**Прочее:**
-- [Подборка сторонних материалов по VIPER](Links.md)
+**Other:**
+- [Reference about VIPER](Links.md)
 
-### Авторы
+### Authors
 
 - Rambler.iOS team
 
-### Лицензия
+### License
 
 MIT
