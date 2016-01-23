@@ -21,7 +21,7 @@
 - Реюзабельные модули для стандартных компонентов
 - Путь от Massive ViewController до VIPER
 - Обработка ошибок
-- VIPER и CoreData
+- [VIPER и NSFetchedResultsController](FRCInVIPER.md)
 
 ####Тестирование:
 - Аспекты тестирования VIPER модулей
