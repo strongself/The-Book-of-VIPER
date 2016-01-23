@@ -19,7 +19,7 @@
 
 Чтобы не быть ограниченными деталями реализации и работы нашей IDE, мы решили вынести процесс кодогенерации на другой уровень и написали небольшую утилиту - [Generamba](https://github.com/rambler-ios/Generamba).
 
-![Generamba](http://s11.postimg.org/ixp90vfr7/generamba.jpg)
+![Generamba](http://s24.postimg.org/gej9cg1cl/generamba.jpg)
 
 ---
 
@@ -41,7 +41,9 @@ gem install generamba
 
 **Работа с шаблонами**
 
-Все шаблоны, используемые в текущем проекте, описываются в `Rambafile`. При запуске команды `generamba template install` поочередно устанавливается каждый из указанных шаблонов - либо из локальной папки, либо из удаленного git-репозитория, либо из [общего каталога шаблонов](https://github.com/rambler-ios/generamba-catalog). Все шаблоны хранятся в папке `Templates` текущего проекта.
+Все шаблоны, используемые в текущем проекте, описываются в `Rambafile`. При запуске команды `generamba template install` поочередно устанавливается каждый из указанных шаблонов - либо из локальной папки, либо из удаленного git-репозитория, либо из каталогов шаблонов [(в том числе и общего](https://github.com/rambler-ios/generamba-catalog). Все шаблоны хранятся в папке `Templates` текущего проекта.
+
+С полным списком команд и их опций можно ознакомиться в нашей [wiki](https://github.com/rambler-ios/Generamba/wiki/Available-Commands).
 
 Проект выложен в open source, поэтому каждый желающий [может помочь нам в его развитии, сообщить об ошибках и оставить свои идеи](https://github.com/rambler-ios/Generamba/issues)
 Кроме того, мы с радостью добавляем новые шаблоны в [наш каталог](https://github.com/rambler-ios/generamba-catalog) через Pull Request'ы.
