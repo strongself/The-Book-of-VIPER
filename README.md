@@ -29,6 +29,7 @@
 
 ####Прочее:
 - [Подборка сторонних материалов по VIPER](Links.md)
+- [VIPER - или то, о чем все говорят, но никто не рассказывает](https://habrahabr.ru/company/e-Legion/blog/275491/) ([Видео](https://www.youtube.com/watch?v=dGTdlNjh_5U) | [Слайды](https://speakerdeck.com/etolstoy/viper-ili-to-o-chiem-vsie-ghovoriat-no-nikto-nie-rasskazyvaiet)) - [Egor Tolstoy](https://github.com/igrekde)
 
 ####Приложение: Rambler.iOS V: V is for VIPER
 - Вступление ([Видео](http://www.youtube.com/watch?v=zjw6Md1mMjQ)) - [Egor Tolstoy](https://github.com/igrekde)
