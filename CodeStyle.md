@@ -12,18 +12,18 @@
   
   ```
   /NewPostUserStory
-        /NewPostModule
-            /Assembly
-            /Interactor
-            /Presenter
-            /Router
-            /View
-        /AvatarChooseModule
-            /Assembly
-            /Interactor
-            /Presenter
-            /Router
-            /View
+      /NewPostModule
+          /Assembly
+          /Interactor
+          /Presenter
+          /Router
+          /View
+      /AvatarChooseModule
+          /Assembly
+          /Interactor
+          /Presenter
+          /Router
+          /View
   ```
   
 - Если по итогу написания модуля какие-то из его элементов остались **неиспользованными**, будь то классы или протоколы, они **удаляются**.
