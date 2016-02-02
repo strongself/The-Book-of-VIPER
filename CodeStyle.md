@@ -98,7 +98,7 @@
 #### Класс `Interactor`
 
 ##### Наименование
-`<ModuleName>Interactor.h/<ModuleName>Interactor.m`
+`<ModuleName>Interactor.h / <ModuleName>Interactor.m`
 
 ##### Дополнительные правила
 
@@ -123,7 +123,7 @@
 
 #### Фасады над сервисами
 ##### Наименование
-`<Feature>Facade.h/<Feature>Facade.m` 
+`<Feature>Facade.h / <Feature>Facade.m` 
 
 ##### Описание
 В случае, если в интеракторах нескольких модулей есть **повторяющаяся логика по использованию сервисов** определенным образом, она инкапсулируется в отдельный фасад над сервисами. 
@@ -171,7 +171,7 @@
 ### Слой Presenter
 #### Класс `Presenter`
 ##### Наименование
-`<ModuleName>Presenter.h/<ModuleName>Presenter.m`
+`<ModuleName>Presenter.h / <ModuleName>Presenter.m`
 
 ##### Дополнительные правила
 
@@ -198,7 +198,7 @@
 
 #### Класс `State`
 ##### Наименование
-`<ModuleName>State.h/<ModuleName>State.m`
+`<ModuleName>State.h / <ModuleName>State.m`
 
 ##### Описание
 В том случае, если стейт текущего модуля представляет собой относительно сложную структуру, его можно выделить в отдельный объект, не обладающий никаким поведением и выступающим простым хранилищем данных.
@@ -252,14 +252,14 @@
 ### Слой Router
 #### Класс `Router`
 ##### Наименование
-`<ModuleName>Router.h/<ModuleName>Router.m`
+`<ModuleName>Router.h / <ModuleName>Router.m`
 
 ##### Дополнительные правила
 - При использовании библиотеки ViperMcFlurry держит ссылку на `ViewController`, отвечающий за переходы этого модуля. Ссылка представляет собой свойство, закрытое протоколом `<RamblerViperModuleTransitionHandlerProtocol>`.
 
 #### Класс `Route`
 ##### Наименование
-`<ModuleName>Route.h/<ModuleName>Route.m`
+`<ModuleName>Route.h / <ModuleName>Route.m`
 
 ##### Описание
 Если несколько роутеров в рамках одного приложения реализуют повторяющуюся логику по переходам на один экран - ее можно инкапсулировать в отдельном объекте-маршруте, который будет подключаться к нужным модулям.
@@ -291,7 +291,7 @@
 ### Слой View
 #### Классы отображения (ViewController, View, Cell)
 ##### Наименование
-`<ModuleName>View.h/<ModuleName>View.m`, `<ModuleName>ViewController.h/<ModuleName>ViewController.m`, `<ModuleName>Cell.h/<ModuleName>Cell.m`.
+`<ModuleName>View.h / <ModuleName>View.m`, `<ModuleName>ViewController.h / <ModuleName>ViewController.m`, `<ModuleName>Cell.h / <ModuleName>Cell.m`.
 
 ##### Дополнительные правила
 
@@ -304,7 +304,7 @@
 
 #### Класс DataDisplayManager
 ##### Наименование
-`<ModuleName>DataDisplayManager.h/<ModuleName>DataDisplayManager.m`
+`<ModuleName>DataDisplayManager.h / <ModuleName>DataDisplayManager.m`
 
 ##### Описание
 Объект, закрывающий логику реализации `UITableViewDataSource` и `UITableViewDelegate`. Работает только с данными, ничего не знает о конкретных `UIView` экрана. Обычно протоколом не закрывается, потому что конкретному экрану чаще всего соответствует одна конкретная реализация DataDisplayManager.
@@ -319,7 +319,7 @@
 
 #### Класс CellObjectBuilder
 ##### Наименование
-`<ModuleName>CellObjectBuilder.h/<ModuleName>CellObjectBuilder.m`
+`<ModuleName>CellObjectBuilder.h / <ModuleName>CellObjectBuilder.m`
 
 ##### Описание
 Зачастую удобно бывает выносить логику по созданию моделей ячеек из DataDisplayManager'а в отдельный объект, который, по сути, преобразует обычные модели в CellObject'ы.
@@ -368,7 +368,7 @@
 ### Слой Assembly
 #### Класс Assembly
 ##### Наименование
-`<ModuleName>Assembly.h/<ModuleName>Assembly.m`
+`<ModuleName>Assembly.h / <ModuleName>Assembly.m`
 
 ##### Дополнительные правила
 
