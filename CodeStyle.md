@@ -33,10 +33,10 @@
 
   ```
 /Interactor
-    /UserInputValidator
+      /UserInputValidator
         UserInputValidator.h
         UserInputValidator.m
-    /PlainObjectMapper
+      /PlainObjectMapper
         PlainObjectMapper.h
         PlainObjectMapperImplementation.h
         PlainObjectMapperImplementation.m
