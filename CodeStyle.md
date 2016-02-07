@@ -319,9 +319,9 @@
                                withBaseDelegate:(id <UITableViewDelegate>)baseTableViewDelegate;
 ```
 
-#### Класс CellObjectBuilder
+#### Класс CellObjectFactory
 ##### Наименование
-`<ModuleName>CellObjectBuilder.h / <ModuleName>CellObjectBuilder.m`
+`<ModuleName>CellObjectFactory.h / <ModuleName>CellObjectFactory.m`
 
 ##### Описание
 Зачастую удобно бывает выносить логику по созданию моделей ячеек из DataDisplayManager'а в отдельный объект, который, по сути, преобразует обычные модели в CellObject'ы.
