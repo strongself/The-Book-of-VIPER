@@ -337,7 +337,7 @@
 
 ```objc
 - (void)updateWithTitle:(NSString *)title;
-- (UserInputObject *)obtainCurrentUserInput;
+- (NSString *)obtainCurrentUserInput;
 ```
 
 #### Протокол <ViewOutput>
