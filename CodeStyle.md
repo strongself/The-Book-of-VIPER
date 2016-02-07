@@ -18,7 +18,7 @@
           /Presenter
           /Router
           /View
-      /AvatarChooseModule
+      /ChooseAvatarModule
           /Assembly
           /Interactor
           /Presenter
