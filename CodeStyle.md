@@ -203,7 +203,7 @@
 `<ModuleName>State.h / <ModuleName>State.m`
 
 ##### Описание
-В том случае, если состояние текущего модуля представляет собой относительно сложную структуру, его можно выделить в отдельный объект, не обладающий никаким поведением и выступающий простым хранилищем данных.
+В том случае, если текущий модуль обладает каким-либо состоянием, его можно выделить в отдельный объект, не обладающий никаким поведением и выступающий простым хранилищем данных.
 
 **Пример:**
 
@@ -212,7 +212,7 @@
 
 @property (nonatomic, assign) FeedType feedType;
 @property (nonatomic, assign) BOOL hasHeader;
-@property (nonatomic, strong) CacheRequest *cacheRequest;
+@property (nonatomic, strong) NSString *feedId;
 
 @end
 ```
