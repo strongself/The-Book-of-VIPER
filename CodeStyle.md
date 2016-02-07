@@ -447,26 +447,26 @@
   @end
   ```
 
-- В имплементации классов группы методов различных протоколов разбиваются при помощи `#pragma mark`. 
+- В имплементации классов группы методов различных протоколов разбиваются при помощи `#pragma mark -`. 
 
   **Пример:**
   
   ```objc
   @implementation PostListPresenter
 
-  #pragma mark - Методы PostListModuleInput
+  #pragma mark - PostListModuleInput
 
   - (void)configureModuleWithPostListConfig:(PostListConfig *)config  {
        ...
   }
 
-  #pragma mark - Методы PostListViewOutput
+  #pragma mark - PostListViewOutput
 
   - (void)didTriggerPullToRefreshEvent {
        ...
   }
 
-  #pragma mark - Методы PostListInteractorOutput
+  #pragma mark - PostListInteractorOutput
 
   - (void)didProcessCacheTransaction:(CacheTransactionBatch *)transaction {
        ...
