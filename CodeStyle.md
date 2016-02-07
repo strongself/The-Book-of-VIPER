@@ -194,7 +194,7 @@
   
   `@property (strong, nonatomic) id<PostListInteractorInput> interactor;`
   
-- Если презентеру нужно держать объект, реализующий протокол `ModuleInput `дочернего модуля, переменная называется `prettyModuleInput`.
+- Если презентеру нужно держать объект, реализующий протокол `ModuleInput` дочернего модуля, переменная называется `<OtherModuleName>ModuleInput`.
 
 #### Класс `State`
 ##### Наименование
