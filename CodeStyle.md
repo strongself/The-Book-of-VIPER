@@ -257,7 +257,7 @@
 `<ModuleName>Router.h / <ModuleName>Router.m`
 
 ##### Дополнительные правила
-- При использовании библиотеки ViperMcFlurry держит ссылку на `ViewController`, отвечающий за переходы этого модуля. Ссылка представляет собой свойство, закрытое протоколом `<RamblerViperModuleTransitionHandlerProtocol>`.
+- При использовании библиотеки ViperMcFlurry держит weak-ссылку на `ViewController`, отвечающий за переходы этого модуля. Ссылка представляет собой свойство, закрытое протоколом `<RamblerViperModuleTransitionHandlerProtocol>`. Обычно эта переменная называется `transitionHandler`
 
 #### Класс `Route`
 ##### Наименование
