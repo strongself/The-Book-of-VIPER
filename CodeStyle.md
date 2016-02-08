@@ -86,10 +86,10 @@
 
   @interface PostListPresenter : NSObject <PostListModuleInput, PostListViewOutput, PostListInteractorOutput>
 
-  @property (weak, nonatomic) id<PostListViewInput> view;
-  @property (strong, nonatomic) id<PostListRouterInput> router;
-  @property (strong, nonatomic) id<PostListInteractorInput> interactor;
-  @property (strong, nonatomic) PostListViewModelMapper *postListViewModelMapper;
+  @property (nonatomic, weak) id<PostListViewInput> view;
+  @property (nonatomic, strong) id<PostListRouterInput> router;
+  @property (nonatomic, strong) id<PostListInteractorInput> interactor;
+  @property (nonatomic, strong) PostListViewModelMapper *postListViewModelMapper;
 
   @end
   ```
@@ -111,8 +111,8 @@
   ```objc
   @interface PostListInteractor : NSObject <PostListInteractorInput>
 
-  @property (weak, nonatomic) id<PostListInteractorOutput> output;
-  @property (strong, nonatomic) id<AccountService> accountService;
+  @property (nonatomic, weak) id<PostListInteractorOutput> output;
+  @property (nonatomic, strong) id<AccountService> accountService;
 
   @end
   ```
@@ -121,7 +121,7 @@
 
   **Пример:** 
   
-  `@property (weak, nonatomic) id<PostListInteractorOutput> output;`
+  `@property (nonatomic, weak) id<PostListInteractorOutput> output;`
 
 #### Фасады над сервисами
 ##### Наименование
@@ -182,19 +182,19 @@
 
   **Пример:**
   
-  `@property (weak, nonatomic) id<PostListViewInput> view;`
+  `@property (nonatomic, weak) id<PostListViewInput> view;`
   
 - Презентер держит strong-ссылку на роутер. Переменная называется `router`.
 
   **Пример:**
   
-  `@property (strong, nonatomic) id<PostListRouterInput> router;`
+  `@property (nonatomic, strong) id<PostListRouterInput> router;`
   
 - Презентер держит strong-ссылку на интерактор. Переменная называется `interactor`.
 
   **Пример:**
   
-  `@property (strong, nonatomic) id<PostListInteractorInput> interactor;`
+  `@property (nonatomic, strong) id<PostListInteractorInput> interactor;`
   
 - Если презентеру нужно держать объект, реализующий протокол `ModuleInput` дочернего модуля, переменная называется `<OtherModuleName>ModuleInput`.
 
@@ -302,7 +302,7 @@
 
   **Пример:**
   
-  `@property (strong, nonatomic) id<PostListViewOutput> output;`
+  `@property (nonatomic, strong) id<PostListViewOutput> output;`
 
 #### Класс DataDisplayManager
 ##### Наименование
