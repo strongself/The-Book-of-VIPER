@@ -11,7 +11,7 @@
 ####Основы:
 - [Введение в VIPER](IntroductionToVIPER.md)
 - Структура VIPER-модуля
-- Вопросы нейминга
+- [Вопросы Code Style](CodeStyle.md)
 - [Вопросы кодогенерации и автоматизации создания модулей](CodeGeneration.md)
 - VIPER и Swift
 
