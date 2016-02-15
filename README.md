@@ -10,7 +10,7 @@
 
 ####Основы:
 - [Введение в VIPER](IntroductionToVIPER.md)
-- Структура VIPER-модуля
+- [Структура VIPER-модуля](ModuleStructure.md)
 - [Вопросы Code Style](CodeStyle.md)
 - [Вопросы кодогенерации и автоматизации создания модулей](CodeGeneration.md)
 - VIPER и Swift
