@@ -1,4 +1,4 @@
-##TTD и VIPER
+##TDD и VIPER
 
 ##Кратко о том что такое TDD
 
