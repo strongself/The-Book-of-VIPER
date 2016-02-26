@@ -1,6 +1,8 @@
 **VIPER** - это подход к архитектуре мобильных приложений (в частности - iOS), основанный на идеях [Роберта Мартина](http://blog.cleancoder.com/), изложенных им в статье [The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
-![Clean Architecture](http://i.imgur.com/rt9bUjo.png)
+<p align="center">
+  <img src="http://i.imgur.com/rt9bUjo.png">
+</p>
 
 **Основные задачи, которые помогает решить VIPER**:
 
