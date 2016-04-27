@@ -13,19 +13,20 @@
 - [Структура VIPER-модуля](ModuleStructure.md)
 - [Вопросы Code Style](CodeStyle.md)
 - [Вопросы кодогенерации и автоматизации создания модулей](CodeGeneration.md)
-- VIPER и Swift
 
 ####Практика:
 - [Составные VIPER модули](CompoundModules.md)
 - [Переходы между модулями](ModuleTransitions.md)
-- Реюзабельные модули для стандартных компонентов
 - Путь от Massive ViewController до VIPER
 - Обработка ошибок
 - [VIPER и NSFetchedResultsController](FRCInVIPER.md)
 
 ####Тестирование:
-- Аспекты тестирования VIPER модулей
 - [VIPER и TDD](TDDVIPER.md)
+
+####Особые случаи:
+- Работа с UIWebView в VIPER
+- Фасады над сервисами
 
 ####Прочее:
 - [Подборка сторонних материалов по VIPER](Links.md)
