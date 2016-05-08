@@ -1,8 +1,8 @@
 Создание нового модуля - одно из самых узких мест в VIPER, особенно с точки зрения стороннего человека. Для того, чтобы создать новый модуль-экран, нужно как минимум:
 
-- **Пять новых классов** (Assembly, ViewController, Presenter, Interactor, Router)
-- **Пять новых протоколов** (ViewInput, ViewOutput, InteractorInput, InteractorOutput, RouterInput)
-- **Пять новых тестов** (AssemblyTests, ViewControllerTests, PresenterTests, InteractorTests, RouterTests)
+- **Пять новых классов** (Assembly, ViewController, Presenter, Interactor, Router),
+- **Пять новых протоколов** (ViewInput, ViewOutput, InteractorInput, InteractorOutput, RouterInput),
+- **Пять новых тестов** (AssemblyTests, ViewControllerTests, PresenterTests, InteractorTests, RouterTests).
 
 Кроме этого, нужно установить все необходимые связи, добавить реализацию протоколов, настроить dependency injection контейнер - и в частных случаях еще множество других действий. Такая сложность несет за собой две основные проблемы:
 
@@ -41,11 +41,11 @@ gem install generamba
 
 **Работа с шаблонами**
 
-Все шаблоны, используемые в текущем проекте, описываются в `Rambafile`. При запуске команды `generamba template install` поочередно устанавливается каждый из указанных шаблонов - либо из локальной папки, либо из удаленного git-репозитория, либо из каталогов шаблонов [(в том числе и общего](https://github.com/rambler-ios/generamba-catalog). Все шаблоны хранятся в папке `Templates` текущего проекта.
+Все шаблоны, используемые в текущем проекте, описываются в `Rambafile`. При запуске команды `generamba template install` поочередно устанавливается каждый из указанных шаблонов - либо из локальной папки, либо из удаленного git-репозитория, либо из каталогов шаблонов ([в том числе и общего](https://github.com/rambler-ios/generamba-catalog)). Все шаблоны хранятся в папке `Templates` текущего проекта.
 
 С полным списком команд и их опций можно ознакомиться в нашей [wiki](https://github.com/rambler-ios/Generamba/wiki/Available-Commands).
 
-Проект выложен в open source, поэтому каждый желающий [может помочь нам в его развитии, сообщить об ошибках и оставить свои идеи](https://github.com/rambler-ios/Generamba/issues)
+Проект выложен в open source, поэтому каждый желающий [может помочь нам в его развитии, сообщить об ошибках и оставить свои идеи](https://github.com/rambler-ios/Generamba/issues).
 Кроме того, мы с радостью добавляем новые шаблоны в [наш каталог](https://github.com/rambler-ios/generamba-catalog) через Pull Request'ы.
 
 ### Другие кодогенераторы
