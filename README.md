@@ -40,7 +40,7 @@
 - Сложные модули ([Видео](http://www.youtube.com/watch?v=4ZPQ_qotx4M) | [Слайды](http://www.slideshare.net/Rambler-iOS/viper-56423837)) - [Andrey Zarembo](https://github.com/AndreyZarembo)
 - Разбиваем Massive View Controller ([Видео](http://www.youtube.com/watch?v=aVuIk6F2rFA) | [Слайды](http://www.slideshare.net/Rambler-iOS/massive-view-controller)) - [Alexander Sychev](https://github.com/Brain89)
 - Тестирование VIPER ([Видео](http://www.youtube.com/watch?v=1y2vxtD7b6g) | [Слайды](http://www.slideshare.net/Rambler-iOS/tdd-viper)) -[Stanislav Tsyganov](https://github.com/AlloyDev)
-- VIPER и Swift ([Видео]([http://www.youtube.com/watch?v=m4MYKzlqtH8) | [Слайды](http://www.slideshare.net/Rambler-iOS/viper-swift)) - [Valeriy Popov](https://github.com/complexityclass)
+- VIPER и Swift ([Видео](http://www.youtube.com/watch?v=m4MYKzlqtH8) | [Слайды](http://www.slideshare.net/Rambler-iOS/viper-swift)) - [Valeriy Popov](https://github.com/complexityclass)
 - Секция вопросов и ответов ([Видео](http://www.youtube.com/watch?v=mFvAIcL4C_4)) - [Egor Tolstoy](https://github.com/igrekde), [Sergey Krapivenskiy](https://github.com/serkrapiv)
 
 ### Авторы
