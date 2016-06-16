@@ -25,7 +25,7 @@ Cons:
 - Some principles **doesn't work with UIKit** out of the box.
 - **Lack of recommendations**, best practices and complex application examples.
 
-We'll cover each of these concepts in detail and focuse on how to solve those cons.
+We'll cover each of these concepts in detail and focuse on how to solve those cons through the book.
 
 **VIPER history timeline:**
 
