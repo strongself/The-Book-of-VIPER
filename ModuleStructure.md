@@ -10,15 +10,15 @@ In the case of Instagram app, especially Profile screen, they are the photos mod
 
 In order to perform its mission module, it is necessary to solve several problems. It is required to implement the business logic module, networking, database, render the user interface. VIPER describes the role of each component and how they interact with each other. So, VIPER-module consists of the following components:
 
-**View:** responsible for displaying data on the screen and notifies the Presenter of the user's actions. But **View** never asks for data. It just gets them from the presenter.
+- **View:** responsible for displaying data on the screen and notifies the Presenter of the user's actions. But **View** never asks for data. It just gets them from the presenter.
 
-**Interactor:** contains all the business logic required for this module.
+- **Interactor:** contains all the business logic required for this module.
 
-**Presenter:** receives information about the user's actions from **View** and transforms it into requests to **Router**, **Interactor**. Receives data from **Interactor**, prepares them and sends **View** to display.
+- **Presenter:** receives information about the user's actions from **View** and transforms it into requests to **Router**, **Interactor**. Receives data from **Interactor**, prepares them and sends **View** to display.
 
-**Entity**: model objects that do not contain any business logic.
+- **Entity**: model objects that do not contain any business logic.
 
-**Router**: responsible for the navigation between the modules.
+- **Router**: responsible for the navigation between the modules.
 
 ## What we have changed
 
