@@ -4,7 +4,7 @@ Any project can be divided into several logical parts with clearly defined funct
 
 In the case of Instagram app, especially Profile screen, they are the photos module (1), information about the user module (2), the tabs for switching the photos list to other modules (3).
 
-![Profile Instagram](Resources/instagram_example.png)
+![Profile Instagram](https://raw.githubusercontent.com/rambler-ios/The-Book-of-VIPER/master/Resources/instagram_example.png)
 
 ##VIPER-module structure
 
@@ -44,4 +44,4 @@ We don't like it, and we decide that the View is in general not a single object 
 
 To illustrate all of the above, we suggest to familiarize with the final scheme VIPER unit. Don't be afraid. Not every module must contain a number of objects. The purpose of this scheme is the most fully displaying our approach to architecture as an example of a complex module.
 
-![VIPER Driving Module](Resources/module_structure.png)
+![VIPER Driving Module](https://raw.githubusercontent.com/rambler-ios/The-Book-of-VIPER/master/Resources/module_structure.png)
