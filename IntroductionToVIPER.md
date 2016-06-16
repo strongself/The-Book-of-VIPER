@@ -1,15 +1,15 @@
-**VIPER** - Architecture approach for application development(particularly iOS), based on ideas of [Robert Martin](http://blog.cleancoder.com/), for his article [The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html).
+**VIPER** - Architecture approach for application development(particularly iOS), based on [the Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) by [Robert C. Martin (Uncle Bob)](http://blog.cleancoder.com/).
 
 ![Clean Architecture](http://i.imgur.com/rt9bUjo.png)
 
 **Main goals of VIPER**:
 
 - Increase of test coverage for Presentation level, usually built from *Massive View Controllers*.
-- Partition of most heavy application classes into smaller parts with distinct responsibility.
+- Separate responsibility into the distinct layer.
 
-it is important to note that VIPER is not list of rules and templates. It's list of recomendations how to build flexible, testable and reusable architecture. We, the iOS Team of **Rambler&Co**, have adopted some canonical principles and formed our best practices for some cases.
+It is important to note that VIPER is not list of rules and templates. It's the list of recommendations how to build flexible, testable and reusable architecture. We, the iOS Team of **Rambler&Co**, have adopted some canonical principles and formed our best practices for some cases.
 
-Firstly VIPER cat break the mind, especially for developers without team work experience. It's because lack of understanding that application parts should be independent and have maximal test coverage. But VIPER is helpful even for small applications.
+VIPER looks difficult at first, especially for developers without the team work experiences on large projects. Because it requires to understand that application modules should be independent and have high test coverage. But, VIPER is helpful even for small applications.
 
 **Pros and cons of VIPER:**
 
@@ -17,15 +17,15 @@ Pros:
 
 - **Increase of testablity** for application presentation layer.
 - **Modules are independent** form each other. It allows separate development of modules and reuse.
-- **Main architecture approaches are defined**. So it's much easier to add new developer into team or move project to another team.
+- **Main architecture approaches are defined**. So it's much easier to add new developer into the team or move project to another team.
 
 Cons:
 
-- Highly **increases class count** in the project, as well as complexity of new module creation.
+- Highly **increases of the number of class** in the project, as well as the complexity of creating the new module.
 - Some principles **doesn't work with UIKit** out of the box.
 - **Lack of recommendations**, best practices and complex application examples.
 
-Other part of our manual tells more about each of this points. Especially it will be told how to beat those cons.
+We'll cover each of these concepts in detail and focuse on how to solve those cons.
 
 **VIPER history timeline:**
 
