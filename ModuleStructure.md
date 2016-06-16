@@ -1,4 +1,4 @@
-##Application Modularization
+## Application Modularization
 
 Any project can be divided into several logical parts with clearly defined functionality. In Instagram app, the main part of the application - news feed, in which we can view the photos, navigate to the screen to create a comment or send a message. The next tab is a list of likes, from which we can move on to a particular photo. Each of these screens is a self-contained part of the application that performs the task well, and knowing how to initiate the transition to the other screens if necessary. We call these kinds of elements to modules.
 
@@ -6,7 +6,7 @@ In the case of Instagram app, especially Profile screen, they are the photos mod
 
 ![Profile Instagram](https://raw.githubusercontent.com/rambler-ios/The-Book-of-VIPER/master/Resources/instagram_example.png)
 
-##VIPER-module structure
+## VIPER-module structure
 
 In order to perform its mission module, it is necessary to solve several problems. It is required to implement the business logic module, networking, database, render the user interface. VIPER describes the role of each component and how they interact with each other. So, VIPER-module consists of the following components:
 
@@ -20,7 +20,7 @@ In order to perform its mission module, it is necessary to solve several problem
 
 **Router**: responsible for the navigation between the modules.
 
-##What we have changed
+## What we have changed
 
 VIPER appears in its original form on [Mutual Mobile](https://www.objc.io/issues/13-architecture/viper/). We have worked with this approach, and soon realized that it has a few problems:
 
@@ -40,7 +40,7 @@ We don't like it, and we decide that the View is in general not a single object 
 
 4) data transmission between the modules is not covered in VIPER original. Our solution to this problem is described in the chapter [the transitions between the modules](ModuleTransitions.md) details but do not dwell on it. It is enough to say that each module can be input and output interfaces - ModuleInput protocols and ModuleOutput. The former is responsible for transferring the input data, such as article identifier for displaying articles. The latter is responsible for transmitting the result of the module. For example, we can send out the item selected by the user when working with the menu settings module.
 
-##The final module circuit
+## The final module circuit
 
 To illustrate all of the above, we suggest to familiarize with the final scheme VIPER unit. Don't be afraid. Not every module must contain a number of objects. The purpose of this scheme is the most fully displaying our approach to architecture as an example of a complex module.
 
