@@ -5,9 +5,9 @@
 **Main goals of VIPER**:
 
 - Increase of test coverage for Presentation level, usually built from *Massive View Controllers*.
-- Separate responsibility into the distinct layer.
+- Conform to the single responsibility principle.
 
-It is important to note that VIPER is not list of rules and templates. It's the list of recommendations how to build flexible, testable and reusable architecture. We, the iOS Team of **Rambler&Co**, have adopted some canonical principles and formed our best practices for some cases.
+It is important to note that VIPER is not the list of rules and templates. It's the list of recommendations how to build flexible, testable and reusable architecture. We, the iOS Team of **Rambler&Co**, have adopted some canonical principles and formed our best practices for some cases.
 
 VIPER looks difficult at first, especially for developers without the team work experiences on large projects. Because it requires to understand that application modules should be independent and have high test coverage. But, VIPER is helpful even for small applications.
 
@@ -15,8 +15,8 @@ VIPER looks difficult at first, especially for developers without the team work 
 
 Pros:
 
-- **Increase of testablity** for application presentation layer.
-- **Modules are independent** form each other. It allows separate development of modules and reuse.
+- **Increase of testablity** for the application presentation layer.
+- **Modules are independent** from each other. It makes the separate development environment and increases the code reusability.
 - **Main architecture approaches are defined**. So it's much easier to add new developer into the team or move project to another team.
 
 Cons:
@@ -25,7 +25,7 @@ Cons:
 - Some principles **doesn't work with UIKit** out of the box.
 - **Lack of recommendations**, best practices and complex application examples.
 
-We'll cover each of these concepts in detail and focuse on how to solve those cons through the book.
+We'll cover each of these concepts in detail and focus on how to solve those problems through the book.
 
 **VIPER history timeline:**
 
