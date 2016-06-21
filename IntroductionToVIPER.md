@@ -22,15 +22,15 @@ Pros:
 Cons:
 
 - Highly **increases of the number of class** in the project, as well as the complexity of creating the new module.
-- Some principles **doesn't work with UIKit** out of the box.
+- Some principles **don't work with UIKit** out of the box.
 - **Lack of recommendations**, best practices and complex application examples.
 
 We'll cover each of these concepts in detail and focus on how to solve those problems through the book.
 
 **VIPER history timeline:**
 
-- **08.2012** - Article [The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) by Robert Martin
-- **12.2013** - Article [Introduction to VIPER](http://mutualmobile.github.io/blog/2013/12/04/viper-introduction/) by [MutualMobile](http://mutualmobile.github.io/)
+- **08.2012** - An article [The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) by Robert Martin
+- **12.2013** - An article [Introduction to VIPER](http://mutualmobile.github.io/blog/2013/12/04/viper-introduction/) by [MutualMobile](http://mutualmobile.github.io/)
 - **06.2014** - Issue #13. objc.io [Architecting iOS Apps with VIPER](https://www.objc.io/issues/13-architecture/viper/) by MutualMobile
 - **07.2014** - [iPhreaks Show podcast](https://itunes.apple.com/ru/podcast/the-iphreaks-show/id634022060?mt=2&i=316803444) by MutualMobile. History of VIPER, goals and usage.
 - **04.2015** - Rambler&Co VIPER hackatone leads to first application.
