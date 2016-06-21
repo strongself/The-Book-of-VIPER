@@ -4,8 +4,8 @@
 
 **Main goals of VIPER**:
 
-- Increase of test coverage for Presentation level, usually built from *Massive View Controllers*.
-- Conform to the single responsibility principle.
+- Increase of test coverage for the Presentation level, usually built from *Massive View Controllers*.
+- Conform to the Single Responsibility Principle.
 
 It is important to note that VIPER is not the list of rules and templates. It's the list of recommendations how to build flexible, testable and reusable architecture. We, the iOS Team of **Rambler&Co**, have adopted some canonical principles and formed our best practices for some cases.
 
@@ -15,7 +15,7 @@ VIPER looks difficult at first, especially for developers without the team work 
 
 Pros:
 
-- **Increase of testablity** for the application presentation layer.
+- **Increase of testability** for the application presentation layer.
 - **Modules are independent** from each other. It makes the separate development environment and increases the code reusability.
 - **Main architecture approaches are defined**. So it's much easier to add new developer into the team or move project to another team.
 
