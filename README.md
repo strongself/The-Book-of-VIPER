@@ -18,7 +18,6 @@
 - [Составные VIPER модули](CompoundModules.md)
 - [Переходы между модулями](ModuleTransitions.md)
 - [Путь от Massive ViewController до VIPER](MVCChainsawMassacre.md)
-- Обработка ошибок
 - [VIPER и NSFetchedResultsController](FRCInVIPER.md)
 
 ####Тестирование:
