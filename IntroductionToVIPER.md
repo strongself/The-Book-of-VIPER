@@ -31,9 +31,9 @@
 
 **Небольшой ликбез по истории вопроса:**
 
-- **08.2012** - Статья [The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) от Роберта Мартина
-- **12.2013** - Статья [Introduction to VIPER](http://mutualmobile.github.io/blog/2013/12/04/viper-introduction/) от компании [MutualMobile](http://mutualmobile.github.io/)
-- **06.2014** - Выпуск objc.io #13 со статьей [Architecting iOS Apps with VIPER](https://www.objc.io/issues/13-architecture/viper/) от тех же MutualMobile
+- **08.2012** - Статья [The Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) от Роберта Мартина.
+- **12.2013** - Статья [Introduction to VIPER](http://mutualmobile.github.io/blog/2013/12/04/viper-introduction/) от компании [MutualMobile](http://mutualmobile.github.io/).
+- **06.2014** - Выпуск objc.io #13 со статьей [Architecting iOS Apps with VIPER](https://www.objc.io/issues/13-architecture/viper/) от тех же MutualMobile.
 - **07.2014** - [Выпуск подкаста iPhreaks Show](https://itunes.apple.com/ru/podcast/the-iphreaks-show/id634022060?mt=2&i=316803444), в котором MutualMobile рассказывают о том, как появился VIPER, какие вопросы он решает, и как используется в их приложениях.
 - **04.2015** - В рамках локального хакатона в Rambler&Co пишется первое приложение с использованием подходов VIPER.
 - **12.2015** - У Rambler&Co больше десяти приложений на VIPER, как разрабатываемых в данный момент, так и [выпущенных в AppStore](https://itunes.apple.com/ru/developer/rambler-internet-holdings/id395455934).
