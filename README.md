@@ -19,13 +19,10 @@
 - [Переходы между модулями](ModuleTransitions.md)
 - [Путь от Massive ViewController до VIPER](MVCChainsawMassacre.md)
 - [VIPER и NSFetchedResultsController](FRCInVIPER.md)
+- [Работа с UIWebView в VIPER](UIWebView.md)
 
 ####Тестирование:
 - [VIPER и TDD](TDDVIPER.md)
-
-####Особые случаи:
-- [Работа с UIWebView в VIPER](UIWebView.md)
-- Фасады над сервисами
 
 ####Прочее:
 - [Подборка сторонних материалов по VIPER](Links.md)
