@@ -11,7 +11,6 @@
 ####Основы:
 - [Введение в VIPER](IntroductionToVIPER.md)
 - [Структура VIPER-модуля](ModuleStructure.md)
-- [Вопросы Code Style](CodeStyle.md)
 - [Вопросы кодогенерации и автоматизации создания модулей](CodeGeneration.md)
 
 ####Практика:
@@ -25,6 +24,7 @@
 - [VIPER и TDD](TDDVIPER.md)
 
 ####Прочее:
+- [Вопросы Code Style](CodeStyle.md)
 - [Подборка сторонних материалов по VIPER](Links.md)
 - [VIPER - или то, о чем все говорят, но никто не рассказывает](https://habrahabr.ru/company/e-Legion/blog/275491/) ([Видео](https://www.youtube.com/watch?v=dGTdlNjh_5U) | [Слайды](https://speakerdeck.com/etolstoy/viper-ili-to-o-chiem-vsie-ghovoriat-no-nikto-nie-rasskazyvaiet)) - [Egor Tolstoy](https://github.com/igrekde)
 
