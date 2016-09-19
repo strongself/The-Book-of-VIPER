@@ -30,7 +30,9 @@
 - В большинстве случаев он знает о том, что мы используем CoreData,
 - Он является источником данных текущего модуля - не важно, что послужило причиной их появления - прямой запрос из презентера или получение уведомления от базы.
 
-Мы пришли к следующему варианту работы с FRC на уровне интерактора:
+Мы пришли к двум различным вариантам работы с FRC на уровне интерактора. Первый подходит для таблиц с ограниченным количеством контента. Второй - для infinite scroll'а.
+
+#### Работа с таблицами с ограниченным количеством контента
 
 ##### Протокол CacheTracker
 
@@ -121,6 +123,26 @@
     
     [self.delegate didProcessTransactionBatch:self.transactionBatch];
 }
+```
+
+##### CacheRequest
+
+`CacheRequest` - объект, содержащий в себе полное описание параметров слежения за состоянием базы, необходимых для `CacheTracker`. По сути, это запрос, на основе которого `CacheTracker` формирует свое поведение.
+
+```objc
+@interface CacheRequest : NSObject
+
+@property (strong, nonatomic, readonly) NSPredicate *predicate;
+@property (strong, nonatomic, readonly) NSArray *sortDescriptors;
+@property (assign, nonatomic, readonly) Class objectClass;
+@property (strong, nonatomic, readonly) NSString *filterValue;
+
++ (instancetype)requestWithPredicate:(NSPredicate *)predicate
+                     sortDescriptors:(NSArray *)sortDescriptors
+                         objectClass:(Class)objectClass
+                         filterValue:(NSString *)filterValue;
+
+@end
 ```
 
 ##### Классы транзакций
@@ -261,3 +283,10 @@
     }
 }
 ```
+
+#### Работа с infinite scroll
+
+При работе с бесконечными лентами держать в памяти все полученные объекты может быть очень накладно. В таком случае лучше использовать модифицированный первый вариант. Изменения следующие:
+
+- `CacheTracker` не добавляет в транзакции модельные объекты, а передает только индексы.
+- Таблица умеет запрашивать объект по индексу через цепочку `Presenter -> Interactor -> CacheTracker`.
