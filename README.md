@@ -2,7 +2,7 @@
 
 ![](https://img.shields.io/badge/license-CC--BY--NC--SA%204.0%20Int-blue.svg) ![](https://img.shields.io/badge/russian-100%25-brightgreen.svg) ![](https://img.shields.io/badge/english-30%25-yellow.svg)
 
-This book is the most complete guide to the VIPER architecture. It covers almost everything - from module structure and history of VIPER to code style questions and complex practical examples of using this pattern in the wild.
+This book is the most complete guide to the **VIPER architecture**. It covers almost everything - from module structure and history of VIPER to code style questions and complex practical examples of using this pattern in the wild.
 
 ![Cover](/Resources/cover.jpg)
 
@@ -24,7 +24,7 @@ We aim to translate the Book to as many languages as possible. You can help us w
 
 ## Authors
 
-- [Rambler.iOS Team and outside collaborators](https://github.com/rambler-ios/The-Book-of-VIPER/graphs/contributors)
+[Rambler.iOS Team and outside collaborators](https://github.com/rambler-ios/The-Book-of-VIPER/graphs/contributors)
 
 ## License
 
