@@ -1,37 +1,31 @@
-### Предисловие
+# The Book of VIPER
 
-В этом репозитории мы постепенно собираем все наши инструкции, how-to, статьи и best practices, связанные с использованием **VIPER**.
+![](https://img.shields.io/badge/license-CC--BY--NC--SA%204.0%20Int-blue.svg) ![](https://img.shields.io/badge/russian-100%25-brightgreen.svg) ![](https://img.shields.io/badge/english-30%25-yellow.svg)
 
-Все вопросы и пожелания принимаются в [Issues](https://github.com/rambler-ios/The-Book-of-VIPER/issues).
+This book is the most complete guide to the VIPER architecture. It covers almost everything - from module structure and history of VIPER to code style questions and complex practical examples of using this pattern in the wild.
 
-![VIPER](http://i.imgur.com/z0BTfgi.png)
+![Cover](/Resources/cover.jpg)
 
-### Содержание
+## Downloads
 
-####Основы:
-- [Введение в VIPER](IntroductionToVIPER.md)
-- [Структура VIPER-модуля](ModuleStructure.md)
-- [Вопросы кодогенерации и автоматизации создания модулей](CodeGeneration.md)
+The russian version of the book is available in multiple formats:
 
-####Практика:
-- [Составные VIPER модули](CompoundModules.md)
-- [Переходы между модулями](ModuleTransitions.md)
-- [Путь от Massive ViewController до VIPER](MVCChainsawMassacre.md)
-- [VIPER и NSFetchedResultsController](FRCInVIPER.md)
-- [Работа с UIWebView в VIPER](UIWebView.md)
+- [PDF](https://www.gitbook.com/download/pdf/book/etolstoy/the-book-of-viper)
+- [ePub](https://www.gitbook.com/download/epub/book/etolstoy/the-book-of-viper)
+- [Mobi](https://www.gitbook.com/download/mobi/book/etolstoy/the-book-of-viper)
+- [Read Online](https://www.gitbook.com/read/book/etolstoy/the-book-of-viper)
 
-####Тестирование:
-- [VIPER и TDD](TDDVIPER.md)
+## Translation
 
-####Прочее:
-- [Вопросы Code Style](CodeStyle.md)
-- [Дополнительные материалы Rambler&Co](RamblerMaterials.md)
-- [Подборка сторонних материалов по VIPER](Links.md)
+We aim to translate the Book to as many languages as possible. You can help us with it! Join us:
 
-### Авторы
+- [Russian content](russian/content.md) - 100% complete
+- [English content]() - 30% complete
 
-- Rambler.iOS team
+## Authors
 
-### Лицензия
+- [Rambler.iOS Team and outside collaborators](https://github.com/rambler-ios/The-Book-of-VIPER/graphs/contributors)
 
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+## License
+
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/rambler-ios/The-Book-of-VIPER/blob/master/LICENSE)
