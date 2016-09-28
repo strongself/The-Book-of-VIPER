@@ -1,6 +1,6 @@
 # The Book of VIPER
 
-![](https://img.shields.io/badge/license-CC--BY--NC--SA%204.0%20Int-blue.svg) ![](https://img.shields.io/badge/russian-100%25-brightgreen.svg) ![](https://img.shields.io/badge/english-30%25-yellow.svg)
+![](https://img.shields.io/badge/license-CC--BY--NC--SA%204.0%20Int-blue.svg) ![](https://img.shields.io/badge/russian-100%25-brightgreen.svg) ![](https://img.shields.io/badge/english-10%25-red.svg)
 
 This book is the most complete guide to the **VIPER architecture**. It covers almost everything - from module structure and history of VIPER to code style questions and complex practical examples of using this pattern in the wild.
 
@@ -19,8 +19,8 @@ The russian version of the book is available in multiple formats:
 
 We aim to translate the Book to as many languages as possible. You can help us with it! Join us:
 
-- [Russian content](russian/content.md) - 100% complete
-- [English content]() - 30% complete
+- [Russian content](russian/contents.md) - 100% complete
+- [English content](russian/contents.md) - 10% complete
 
 ## Authors
 
