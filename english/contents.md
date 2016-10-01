@@ -12,7 +12,7 @@
 - Transitions between modules
 - VIPER and NSFetchedResultsController
 - UIWebView and VIPER
-- VIPER and TDD
+- [VIPER and TDD](testing.md)
 
 #### Other
 - Code Style Questions
