@@ -24,8 +24,8 @@ We aim to translate the Book to as many languages as possible. You can help us w
 
 ## Authors
 
-[Rambler.iOS Team and outside collaborators](https://github.com/rambler-ios/The-Book-of-VIPER/graphs/contributors)
+[Rambler.iOS Team and outside collaborators](https://github.com/rambler-digital-solutions/The-Book-of-VIPER/graphs/contributors)
 
 ## License
 
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/rambler-ios/The-Book-of-VIPER/blob/master/LICENSE)
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/rambler-digital-solutions/The-Book-of-VIPER/blob/master/LICENSE)
