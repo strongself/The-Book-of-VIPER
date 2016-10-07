@@ -44,7 +44,7 @@
 ![submodules.004](../Resources/submodules/submodules.004.png)
 В работе над проектами были использованы 4 варианта композитных модуля:
 - Модуль-контейнер
-- Scroll View Controller
+- Scroll View Container
 - Таблица с группами ячеек
 - Таблица с ячейками-модулями
 - Модуль-View
