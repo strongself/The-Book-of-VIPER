@@ -20,7 +20,7 @@ The russian version of the book is available in multiple formats:
 We aim to translate the Book to as many languages as possible. You can help us with it! Join us:
 
 - [Russian content](russian/contents.md) - 100% complete
-- [English content](english/contents.md) - 10% complete
+- [English content](english/contents.md) - [10% complete](https://github.com/rambler-digital-solutions/The-Book-of-VIPER/issues?q=is%3Aissue+is%3Aopen+label%3Aenglish)
 
 ## Authors
 
