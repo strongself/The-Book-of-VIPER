@@ -1,33 +1,35 @@
 ### UIWebView in VIPER
 
-Main idea - separate `UIWebView` responsibilities into two groups: `WebEngine` which works with Interactor and `WebPresentation` which works with View.
+The fundamental idea - separate `UIWebView` responsibilities in two groups: `WebEngine`, which is a dependency of the Interactor, and `WebPresentation` which belongs to the View.
 
 #### WebEngine responsibilities
 
-- HTML loading.
-- JavaScript scripts execution.
-- Custom content rendering implementation.
-- Notification for Interactor about drawing, loading and rendering are finished.
+- Loads HTML code.
+- Executes JavaScript scripts.
+- Renders content with a set of predefined actions.
+- Notifies the Interactor of drawing, loading and rendering processes completion.
 
 #### WebPresentation responsibilities
 
-- Notifications for View about different user interactions: tap on link, image or video.
-- Giving access to interface for receiving information about `UIWebView` as drawing object (i.e. access to content size, etc.).
+- Notifies the View of different events: links, images and different embeds taps.
+- Provides an interface of obtaining real content size and other view properties.
 
 ![Module Scheme](Resources/webview-scheme.png)
 
 #### Module workflow
 
-1. Assembly setup two delegates for `WebEngineImplementation` - View and Interactor.
-2. Presenter (or View in case of cell) is module entering point which handle raw html.
-3. Presenter receive View's `WebEngine` and send it to Interactor.
-4. Presenter send html data to Interactor.
-5. Interactor setup `WebEngine` by passing to it few scripts for execution.
-6. Interactor send html to `WebEngine`.
-7. `WebEngine` notify Interactor about loading data progress.
-8. Interactor send this callbacks to Presenter which start further logic.
+1. The Assembly setups two delegates for the `WebEngineImplementation` object - one is the View and another is the Interactor.
+2. The Presenter (or View in case of cell) is an entry point of the module. It's only input is raw html data.
+3. The Presenter receives View's `WebEngine` and passes it to the Interactor.
+4. The Presenter passes html data to the Interactor.
+5. The Interactor setups the `WebEngine` environment by executing a number of JavaScript scripts.
+6. The Interactor passes html data to the `WebEngine`.
+7. `WebEngine` notifies the Interactor on rendering completion.
+8. The Interactor notifies the Presenter, which obtains the content size from the View and passes it to the module output.
 
-Every step is rather easy - less than 5 strings. Let's dive in components implementation.
+These are very simple steps - each method consists of no more than 5 lines of code.
+
+Let's investigate the implementation of each component.
 
 #### `View`
 
@@ -231,4 +233,4 @@ Every step is rather easy - less than 5 strings. Let's dive in components implem
 
 #### Summary
 
-Besides separation of responsibilities we hide fact about third party dependencies for connecting native code and JavaScript. It's just `WebEngine` protocol implementation details. Unit tests for all this components really easy. All you have to check is data flow correctness.
+Besides the clear separation of concerns, we've also hidden the fact of using a third party library for bridging - it's just an implementation detail of our `WebEngine`. Unit tests for this setup are easy and reliable - all that we have to test is the data flow.
