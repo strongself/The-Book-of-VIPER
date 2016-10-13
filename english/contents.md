@@ -13,7 +13,7 @@
 - The road from MVC to VIPER
 - VIPER and NSFetchedResultsController
 - UIWebView and VIPER
-- VIPER and TDD
+- [VIPER and TDD](testing.md)
 
 #### Other
 - Code Style Questions
