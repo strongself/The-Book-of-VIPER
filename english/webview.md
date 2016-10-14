@@ -1,11 +1,11 @@
 ### UIWebView in VIPER
 
-The fundamental idea - separate `UIWebView` responsibilities in two groups: `WebEngine`, which is a dependency of the Interactor, and `WebPresentation` which belongs to the View.
+The fundamental idea is to separate `UIWebView` responsibilities in two groups: `WebEngine`, which is a dependency of the Interactor, and `WebPresentation` which belongs to the View.
 
 #### WebEngine responsibilities
 
 - Loads HTML code.
-- Executes JavaScript scripts.
+- Executes JavaScript.
 - Renders content with a set of predefined actions.
 - Notifies the Interactor of drawing, loading and rendering processes completion.
 
@@ -19,7 +19,7 @@ The fundamental idea - separate `UIWebView` responsibilities in two groups: `Web
 #### Module workflow
 
 1. The Assembly setups two delegates for the `WebEngineImplementation` object - one is the View and another is the Interactor.
-2. The Presenter (or View in case of cell) is an entry point of the module. It's only input is raw html data.
+2. The Presenter (or the View in case of a cell) is an entry point of the module. It's only input is raw html data.
 3. The Presenter receives View's `WebEngine` and passes it to the Interactor.
 4. The Presenter passes html data to the Interactor.
 5. The Interactor setups the `WebEngine` environment by executing a number of JavaScript scripts.
