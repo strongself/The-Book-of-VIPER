@@ -14,7 +14,7 @@ The fundamental idea is to separate `UIWebView` responsibilities in two groups: 
 - Notifies the View of different events: links, images and different embeds taps.
 - Provides an interface of obtaining real content size and other view properties.
 
-![Module Scheme](Resources/webview-scheme.png)
+![Module Scheme](../Resources/webview-scheme.png)
 
 #### Module workflow
 
