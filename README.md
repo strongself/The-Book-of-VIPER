@@ -20,12 +20,12 @@ The russian version of the book is available in multiple formats:
 We aim to translate the Book to as many languages as possible. You can help us with it! Join us:
 
 - [Russian content](russian/contents.md) - 100% complete
-- [English content](english/contents.md) - [14% complete](https://github.com/rambler-digital-solutions/The-Book-of-VIPER/issues?q=is%3Aissue+is%3Aopen+label%3Aenglish)
+- [English content](english/contents.md) - [14% complete](https://github.com/strongself/The-Book-of-VIPER/issues?q=is%3Aissue+is%3Aopen+label%3Aenglish)
 
 ## Authors
 
-[Rambler.iOS Team and outside collaborators](https://github.com/rambler-digital-solutions/The-Book-of-VIPER/graphs/contributors)
+[Rambler.iOS Team and outside collaborators](https://github.com/strongself/The-Book-of-VIPER/graphs/contributors)
 
 ## License
 
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/rambler-digital-solutions/The-Book-of-VIPER/blob/master/LICENSE)
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/strongself/The-Book-of-VIPER/blob/master/LICENSE)
