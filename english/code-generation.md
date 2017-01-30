@@ -9,7 +9,7 @@ Moreover, all the necessary relations need to be established, protocols need to 
 - Too much time spent on simple routine work
 - Increased probability of typos, which may harm not only code style but the application logic as well
 
-One of the ways to tackle this issue, which we also have been using in Rambler&Co - is making our own templates for Xcode. Such approach solves all aforementioned issues, but is has a variety of its own disadvantages:
+One of the ways to tackle this issue, which we also have been using in Rambler&Co - is making our own templates for Xcode. Such approach solves all aforementioned issues, but is has a number of its own disadvantages:
 
 * Building a new template is a complex process due to cumbersome syntax
 * Sometimes after an Xcode update templates might just stop working
@@ -37,13 +37,13 @@ All the parameters needed for the code generation is contained in file `Rambafil
 
 #### New module generation
 
-Generation of a new module is performed by calling `generamba gen ModuleName TemplateName`. As a result, it will create all files described in the given template - besides they will be added to Xcode project, as well as to the file system. 
+Generation of a new module is performed by calling `generamba gen ModuleName TemplateName`. As a result, it will create all files described in the given template - and they will be added to Xcode project, as well as to the file system. 
 
 #### Working with templates
 
 All templates which are used in the current project is described in `Rambafile`. The call to `generamba template install` will install provided templates one by one - either from a local folder or from a remote git repository or even from template catalog([including shared ones](https://github.com/rambler-ios/generamba-catalog)). All templates are stored in the project’s `Templates` folder.
 
-The full list of commands and their options can be found in out [wiki](https://github.com/rambler-ios/Generamba/wiki/Available-Commands).
+The full list of commands and their options can be found in our [wiki](https://github.com/rambler-ios/Generamba/wiki/Available-Commands).
 
 The project is open sourced, so everyone who is willing [can help us in development, send us bug reports and share your ideas](https://github.com/rambler-ios/Generamba/issues). Besides, we will be happy to add new templates to [our catalog](https://github.com/rambler-ios/generamba-catalog) via Pull Requests.
 
