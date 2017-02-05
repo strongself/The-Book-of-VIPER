@@ -4,7 +4,7 @@
 
 This book is the most complete guide to the **VIPER architecture**. It covers almost everything - from module structure and history of VIPER to code style questions and complex practical examples of using this pattern in the wild.
 
-![Cover](/Resources/cover.jpg)
+![Cover](Resources/cover.jpg)
 
 ## Downloads
 
