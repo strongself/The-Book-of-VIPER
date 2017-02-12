@@ -1,6 +1,6 @@
 # The Book of VIPER
 
-![](https://img.shields.io/badge/license-CC--BY--NC--SA%204.0%20Int-blue.svg) ![](https://img.shields.io/badge/russian-100%25-brightgreen.svg) ![](https://img.shields.io/badge/english-14%25-red.svg)
+![](https://img.shields.io/badge/license-CC--BY--NC--SA%204.0%20Int-blue.svg) ![](https://img.shields.io/badge/russian-100%25-brightgreen.svg) ![](https://img.shields.io/badge/english-20%25-red.svg)
 
 This book is the most complete guide to the **VIPER architecture**. It covers almost everything - from module structure and history of VIPER to code style questions and complex practical examples of using this pattern in the wild.
 
