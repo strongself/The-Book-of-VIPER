@@ -45,7 +45,8 @@ gem install generamba
 
 С полным списком команд и их опций можно ознакомиться в нашей [wiki](https://github.com/rambler-ios/Generamba/wiki/Available-Commands).
 
-Проект выложен в open source, поэтому каждый желающий [может помочь нам в его развитии, сообщить об ошибках и оставить свои идеи](https://github.com/rambler-ios/Generamba/issues).
+Проект выложен в open source, поэтому каждый желающий [может помочь нам в его развитии, сообщить об ошибках и оставить свои идеи](https://github.com/rambler-ios/Generamba/issues). 
+
 Кроме того, мы с радостью добавляем новые шаблоны в [наш каталог](https://github.com/rambler-ios/generamba-catalog) через Pull Request'ы.
 
 ### Другие кодогенераторы
