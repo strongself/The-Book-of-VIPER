@@ -1,6 +1,6 @@
 **VIPER** - Architecture approach for application development(particularly iOS), based on [the Clean Architecture](https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) by [Robert C. Martin (Uncle Bob)](http://blog.cleancoder.com/).
 
-![Clean Architecture](http://i.imgur.com/rt9bUjo.png)
+![Clean Architecture](../Resources/clean-architecture.png)
 
 **Main goals of VIPER**:
 
