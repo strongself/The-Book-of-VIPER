@@ -5,7 +5,7 @@
 #### Basics
 - [Introduction to VIPER](introduction-to-viper.md)
 - [Structure of the VIPER module](module-structure.md)
-- [Code generation and module creation automation] (code-generation.md)
+- [Code generation and module creation automation](code-generation.md)
 
 #### Practice
 - Compound VIPER modules
