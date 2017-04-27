@@ -18,7 +18,7 @@
 
 Теоретические материалы - это отлично, но одной из главных проблем, с которой мы столкнулись при знакомстве с VIPER, это отсутствие примеров его применения в приложениях сложнее обычного *Hello World*.
 
-Мы постарались решить этот вопрос и выложили в Open Source приложение [Rambler&IT](https://github.com/rambler-ios/RamblerConferences). Его основные особенности:
+Мы постарались решить этот вопрос и выложили в Open Source приложение [Rambler&IT](https://github.com/rambler-digital-solutions/RamblerConferences). Его основные особенности:
 
 - Разбито на три основных слоя: `Presentation`, `BusinessLogic`, `Core`.
 - Слой `Presentation` целиком написан с использованием VIPER.
