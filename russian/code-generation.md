@@ -17,7 +17,7 @@
 - Принципиально отсутствует возможность добавления файлов шаблона в разные таргеты (к примеру, при автогенерации тестов),
 - Настройка шаблонов и параметров кодогенерации во многом ориентирована на конкретного пользователя, а не на проект.
 
-Чтобы не быть ограниченными деталями реализации и работы нашей IDE, мы решили вынести процесс кодогенерации на другой уровень и написали небольшую утилиту - [Generamba](https://github.com/rambler-ios/Generamba).
+Чтобы не быть ограниченными деталями реализации и работы нашей IDE, мы решили вынести процесс кодогенерации на другой уровень и написали небольшую утилиту - [Generamba](https://github.com/rambler-digital-solutions/Generamba).
 
 ![Generamba](http://s24.postimg.org/gej9cg1cl/generamba.jpg)
 
@@ -41,13 +41,13 @@ gem install generamba
 
 **Работа с шаблонами**
 
-Все шаблоны, используемые в текущем проекте, описываются в `Rambafile`. При запуске команды `generamba template install` поочередно устанавливается каждый из указанных шаблонов - либо из локальной папки, либо из удаленного git-репозитория, либо из каталогов шаблонов ([в том числе и общего](https://github.com/rambler-ios/generamba-catalog)). Все шаблоны хранятся в папке `Templates` текущего проекта.
+Все шаблоны, используемые в текущем проекте, описываются в `Rambafile`. При запуске команды `generamba template install` поочередно устанавливается каждый из указанных шаблонов - либо из локальной папки, либо из удаленного git-репозитория, либо из каталогов шаблонов ([в том числе и общего](https://github.com/rambler-digital-solutions/generamba-catalog)). Все шаблоны хранятся в папке `Templates` текущего проекта.
 
-С полным списком команд и их опций можно ознакомиться в нашей [wiki](https://github.com/rambler-ios/Generamba/wiki/Available-Commands).
+С полным списком команд и их опций можно ознакомиться в нашей [wiki](https://github.com/rambler-digital-solutions/Generamba/wiki/Available-Commands).
 
-Проект выложен в open source, поэтому каждый желающий [может помочь нам в его развитии, сообщить об ошибках и оставить свои идеи](https://github.com/rambler-ios/Generamba/issues). 
+Проект выложен в open source, поэтому каждый желающий [может помочь нам в его развитии, сообщить об ошибках и оставить свои идеи](https://github.com/rambler-digital-solutions/Generamba/issues). 
 
-Кроме того, мы с радостью добавляем новые шаблоны в [наш каталог](https://github.com/rambler-ios/generamba-catalog) через Pull Request'ы.
+Кроме того, мы с радостью добавляем новые шаблоны в [наш каталог](https://github.com/rambler-digital-solutions/generamba-catalog) через Pull Request'ы.
 
 ### Другие кодогенераторы
 - [vipergen](https://github.com/teambox/viper-module-generator)
