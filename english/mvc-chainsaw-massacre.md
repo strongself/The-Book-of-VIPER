@@ -1,4 +1,4 @@
-It is not difficult to start a new project with the VIPER architecture as a foundation. But constantly developers have to support and enhance applications, that were initially developed with chaotic code base, without considering strict rules of design and architecture. It often happens that the first version of the project doesn't have a lot of requirements and they can fit on a single sheet of paper. Therefore, there is not enough attention paid to the application architecture at this stage. But terms of reference for the second version can have as many pages as "War and Peace"(by Leo Tolstoy) has. That's why, more complex task, but an interesting one at the same time, is to migrate an existing iOS application from a weak foundation to the solid one, that is based on a flexible and robust VIPER architecture.   
+It is not difficult to start a new project with the VIPER architecture as a foundation. But constantly developers have to support and enhance applications, that were initially developed with chaotic code base, without considering strict rules of design and architecture. It often happens that the first version of a project doesn't have a lot of requirements and they can fit on a single sheet of paper. Therefore, there is not enough attention paid to the application architecture at this stage. But terms of reference for the second version can have as many pages as "War and Peace"(by Leo Tolstoy) has. That's why, more complex task, but an interesting one at the same time, is to migrate an existing iOS application from a weak foundation to a solid one, that is based on a flexible and robust VIPER architecture.   
 
 ### Why MVC becomes Massive-View-Controller
 
@@ -8,7 +8,7 @@ It is not difficult to start a new project with the VIPER architecture as a foun
 
 **The Presentation** layer contains objects that a user can see. Objects of this layer are usually can be reused. These include classes like UILabel and UIButton.
 
-**The Controller** layer mediates an interaction between presentation layer objects and model objects: controls user input and uses a model and a view to implement necessary reaction. Also objects of this layer are used for definition and coordination of application problems, life cycle management of other objects.
+**The Controller** layer mediates interaction between presentation layer objects and model objects: controls user input and uses a model and a view to implement necessary reaction. Also objects of this layer are used for definition and coordination of application problems, life cycle management of other objects.
 
 ![Model-View-Controller](../Resources/MVCMassacre/MVC.png)
 
