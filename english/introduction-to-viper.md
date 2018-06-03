@@ -4,24 +4,24 @@
 
 **Main goals of VIPER**:
 
-- Increase of test coverage for the Presentation level, usually built from *Massive View Controllers*.
-- Conform to the Single Responsibility Principle.
+- Increasing test coverage of the Presentation level, usually built from *Massive View Controllers*.
+- Conforming to the Single Responsibility Principle.
 
 It is important to note that VIPER is not the list of rules and templates. It's the list of recommendations how to build flexible, testable and reusable architecture. We, the iOS Team of **Rambler&Co**, have adopted some canonical principles and formed our best practices for some cases.
 
-VIPER looks difficult at first, especially for developers without the team work experiences on large projects. Because it requires to understand that application modules should be independent and have high test coverage. But, VIPER is helpful even for small applications.
+VIPER looks difficult at first, especially for developers without the team work experiences on large projects. It might be hard to understand its benefits if independent modules and high test coverage are not your priorities. But, VIPER is helpful even for small applications.
 
 **Pros and cons of VIPER:**
 
 Pros:
 
 - **Increase of testability** for the application presentation layer.
-- **Modules are independent** from each other. It makes the separate development environment and increases the code reusability.
-- **Main architecture approaches are defined**. So it's much easier to add new developer into the team or move project to another team.
+- **Modules are independent** from each other. It separates the development environment and increases the code reusability.
+- **Main architecture approaches are defined**. So it's much easier to add new developer to the team or move project to another team.
 
 Cons:
 
-- Highly **increases of the number of class** in the project, as well as the complexity of creating the new module.
+- Highly **increases number of classes** in the project, as well as the complexity of creating a new module.
 - Some principles **don't work with UIKit** out of the box.
 - **Lack of recommendations**, best practices and complex application examples.
 
