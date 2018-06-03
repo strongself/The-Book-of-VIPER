@@ -10,7 +10,7 @@
 #### Practice
 - Compound VIPER modules
 - Transitions between modules
-- The road from MVC to VIPER
+- [The road from MVC to VIPER](mvc-chainsaw-massacre.md)
 - VIPER and NSFetchedResultsController
 - [UIWebView and VIPER](webview.md)
 - VIPER and TDD
