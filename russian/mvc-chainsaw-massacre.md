@@ -161,12 +161,12 @@ Apple дает несколько советов по созданию конт�
       
       ```objective-c
       @protocol AGMainMenuRouterInput <NSObject>
-
+      
       @required
       - (void)showCityFromViewController:(UIViewController *)viewController;
       - (void)showPlacesFromViewController:(UIViewController *)viewController;
       - (void)showReferenceBookFromViewController:(UIViewController *)viewController;
-        
+      
       @end
       ```
       
